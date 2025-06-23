@@ -1,0 +1,5 @@
+Bill = float(input())
+Tip = float(input())
+People = int(input())
+Pays = ((Bill + (Bill * Tip / 100)) / 4)
+print("Each person pays:" , Pays)
